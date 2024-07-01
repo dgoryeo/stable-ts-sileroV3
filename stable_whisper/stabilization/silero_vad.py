@@ -17,7 +17,7 @@ def load_silero_vad_model(onnx=False, verbose: Optional[bool] = False, cache: bo
         return model_cache[onnx]
 
     load_kwargs = dict(
-        repo_or_dir='snakers4/silero-vad:master',
+        repo_or_dir='snakers4/silero-vad:v3.1',        
         model='silero_vad',
         verbose=verbose,
         onnx=onnx,
