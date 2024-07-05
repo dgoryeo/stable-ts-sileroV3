@@ -13,9 +13,9 @@ def read_me() -> str:
 
 
 setup(
-    name="stable-ts",
-    version=version(),
-    description="Modifies OpenAI's Whisper to produce more reliable timestamps.",
+    name="stable-ts-sileroV3-dgoryeo",
+    version='0.1.0',
+    description="Modifies original stable-ts to use silero v3.",
     long_description=read_me(),
     long_description_content_type='text/markdown',
     python_requires=">=3.8",
