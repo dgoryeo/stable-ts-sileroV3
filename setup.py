@@ -13,7 +13,7 @@ def read_me() -> str:
 
 
 setup(
-    name="stable-ts-sileroV3-dgoryeo",
+    name="stable-ts",
     version='0.1.0',
     description="Modifies original stable-ts to use silero v3.",
     long_description=read_me(),
